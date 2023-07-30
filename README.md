@@ -1,2 +1,3 @@
 # To-Do-Web-Project-
-A To Do list web application
+Created a web application, for To -Do list, where user can ADD, DELETE, DATE, their daily to-do tasks.
+Added local storage option, Majorly used JSON, Query Selector, Grid layout, Funcion, Array, Loops, and basic HTML, CSS.
