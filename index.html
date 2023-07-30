@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Array practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Pacifico&family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <p id="head">To Do list</p>
+
+    <div class="main-display">
+        <div class="addSection">
+            <input placeholder="To-Do" class="input-value" onkeydown="
+            if(event.key==='Enter'){
+                addToList();
+            }">
+            <input type="date" class="date-values">
+            <button class="add" onclick="
+            addToList();
+            ">Add</button>
+        </div>
+
+        <div class="list-values">
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
